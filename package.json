@@ -1,0 +1,26 @@
+{
+  "name": "calc-gross-margin-ratio",
+  "version": "1.0.0",
+  "description": "A CLI to calculate gross margin ratio",
+  "main": "src/index.js",
+  "bin": {
+    "calc-gmratio": "bin/calc-gmratio"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "calc-gross-margin-ratio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0"
+  }
+}
